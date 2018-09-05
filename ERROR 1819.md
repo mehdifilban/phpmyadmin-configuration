@@ -28,12 +28,11 @@ and then restart the apache:
 <br />
 
 `mysql> use mysql;` <br />
-`mysql> SELECT User, Host, plugin FROM mysql.user;` 
+`mysql> SELECT User, Host, plugin FROM mysql.user;` <br />
 
-###### and you will see a table and in the plugin section you'll see that root has been sets to auth-socket right?
-###### we have two options but I'll tell that i know is so easy to do.
-
-###### You can set the root user to use the mysql_native_password plugin
+and you will see a table and in the plugin section you'll see that root has been sets to auth-socket right?
+we have two options but I'll tell that i know is so easy to do.
+You can set the root user to use the mysql_native_password plugin : <br />
 
 `$ sudo mysql -u root # I had to use "sudo" since is new installation` <br />
 
