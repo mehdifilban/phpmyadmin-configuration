@@ -12,8 +12,12 @@ and if you wanna set it to medium you should just change low to medium or the hi
 
 and then create a user with a new password with the standard of that level.
 
-`mysql> create user 'mehdi'@'localhost' identified by 'your password';`
+##### `mysql> create user 'mehdi'@'localhost' identified by 'your password';`
+
 and exit the mysql by typing this:
+
 `mysql> exit`
+
 and then restart the apache:
+
 `systemctl reload apache2.service`
