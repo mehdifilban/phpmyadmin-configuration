@@ -35,13 +35,13 @@ and then restart the apache:
 
 ###### You can set the root user to use the mysql_native_password plugin
 
-`$ sudo mysql -u root # I had to use "sudo" since is new installation`
+`$ sudo mysql -u root # I had to use "sudo" since is new installation` <br />
 
-`mysql> USE mysql;`
-`mysql> UPDATE user SET plugin='mysql_native_password' WHERE User='root';`
-`mysql> FLUSH PRIVILEGES;`
-`mysql> exit;`
+`mysql> USE mysql;`<br />
+`mysql> UPDATE user SET plugin='mysql_native_password' WHERE User='root';`<br />
+`mysql> FLUSH PRIVILEGES;`<br />
+`mysql> exit;`<br />
 
-`$ service mysql restart`
+`$ service mysql restart`<br />
 
 
